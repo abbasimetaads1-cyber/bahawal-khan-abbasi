@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahawal Khan Abbasi | Meta Ads Expert</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-dark: #0a0b10;
+            --card-bg: #161b22;
+            --accent-blue: #00d2ff;
+            --accent-gold: #ffcc00;
+            --text-main: #ffffff;
+            --text-dim: #a1a1a1;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg-dark); color: var(--text-main); line-height: 1.6; }
+
+        /* --- Header & Hero --- */
+        header { padding: 2rem 5%; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: 800; color: var(--accent-blue); text-transform: uppercase; }
+
+        .hero { height: 80vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 10%; background: radial-gradient(circle at center, #1a2333 0%, var(--bg-dark) 70%); }
+        .hero h1 { font-size: 3.5rem; margin-bottom: 1rem; letter-spacing: -1px; }
+        .hero span { color: var(--accent-blue); }
+        .hero p { font-size: 1.2rem; color: var(--text-dim); max-width: 700px; margin-bottom: 2rem; }
+
+        /* --- Buttons --- */
+        .cta-btn { background: linear-gradient(45deg, var(--accent-blue), #0072ff); color: white; padding: 1rem 2.5rem; border-radius: 50px; text-decoration: none; font-weight: bold; transition: 0.3s; box-shadow: 0 10px 20px rgba(0, 210, 255, 0.3); }
+        .cta-btn:hover { transform: translateY(-3px); box-shadow: 0 15px 25px rgba(0, 210, 255, 0.5); }
+
+        /* --- Results Gallery --- */
+        .section-title { text-align: center; margin: 4rem 0 2rem; font-size: 2.5rem; }
+        .results-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 0 5% 4rem; }
+        .result-card { background: var(--card-bg); border-radius: 12px; overflow: hidden; border: 1px solid #30363d; transition: 0.3s; }
+        .result-card:hover { border-color: var(--accent-blue); }
+        .result-card img { width: 100%; height: auto; display: block; }
+        .result-info { padding: 1.5rem; }
+        .result-tag { color: var(--accent-blue); font-size: 0.8rem; font-weight: bold; text-transform: uppercase; }
+
+        /* --- Services --- */
+        .services { display: flex; gap: 20px; padding: 4rem 5%; justify-content: center; flex-wrap: wrap; }
+        .service-card { background: var(--card-bg); padding: 2rem; border-radius: 15px; width: 45%; min-width: 300px; text-align: center; }
+        .service-card i { font-size: 2.5rem; color: var(--accent-gold); margin-bottom: 1rem; }
+
+        /* --- Contact --- */
+        .contact-section { background: #111; padding: 4rem 5%; text-align: center; }
+        .contact-info { margin-top: 2rem; display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; }
+        .contact-item { font-size: 1.1rem; color: var(--text-main); text-decoration: none; }
+        .contact-item i { color: var(--accent-blue); margin-right: 10px; }
+
+        footer { text-align: center; padding: 2rem; border-top: 1px solid #222; color: var(--text-dim); font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Bahawal Khan Abbasi</div>
+        <a href="https://wa.me/92318673188" class="cta-btn" style="padding: 0.6rem 1.5rem;">WhatsApp Me</a>
+    </header>
+
+    <section class="hero">
+        <h1>Stop Guessing. Start <span>Scaling.</span></h1>
+        <p>Premium Meta Ads Management and Social Media Strategy designed to maximize your ROI and dominate your niche.</p>
+        <a href="#contact" class="cta-btn">Book a Free Consultation</a>
+    </section>
+
+    <h2 class="section-title">Case Studies & Creative Work</h2>
+    <div class="results-container">
+        <div class="result-card">
+            <div class="result-info"><span class="result-tag">Performance</span><h3>$137k+ Monthly Revenue</h3></div>
+            <img src="06f74a17b7ab32cf5084ed63c904e1cc.jpg" alt="Shopify Results">
+        </div>
+        <div class="result-card">
+            <div class="result-info"><span class="result-tag">Meta Ads</span><h3>Massive ROAS Optimization</h3></div>
+            <img src="39b0dc661b572be8f0a395394a61ebfa.jpg" alt="Ads Dashboard">
+        </div>
+        <div class="result-card">
+            <div class="result-info"><span class="result-tag">Creative Design</span><h3>Premium Fragrance Branding</h3></div>
+            <img src="Instagram post - 1 (1).jpg" alt="Lajawab Perfume Ad">
+        </div>
+        <div class="result-card">
+            <div class="result-info"><span class="result-tag">Creative Design</span><h3>High-Tech Footwear Visuals</h3></div>
+            <img src="Gemini_Generated_Image_m8sbg6m8sbg6m8sb.jpg" alt="Footwear Ad">
+        </div>
+    </div>
+
+    <section class="services">
+        <div class="service-card">
+            <i class="fas fa-chart-line"></i>
+            <h3>Meta Ads Management</h3>
+            <p>Full-funnel strategy, advanced pixel setup, and A/B testing to ensure every PKR spent brings profit.</p>
+        </div>
+        <div class="service-card">
+            <i class="fas fa-hashtag"></i>
+            <h3>SMM Strategy</h3>
+            <p>Data-driven content plans and community management to turn followers into loyal customers.</p>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <h2>Start Your Growth Journey Today</h2>
+        <p style="color: var(--text-dim); margin-top: 10px;">Direct communication for serious business owners.</p>
+        <div class="contact-info">
+            <a href="tel:+92318673188" class="contact-item"><i class="fas fa-phone"></i> +92 318 673188</a>
+            <a href="mailto:Bahawalkhanabbasi1@gmail.com" class="contact-item"><i class="fas fa-envelope"></i> Bahawalkhanabbasi1@gmail.com</a>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2026 Bahawal Khan Abbasi. All rights reserved. | Pakistan's Leading Meta Ads Expert.
+    </footer>
+
+</body>
+</html>
