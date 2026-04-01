@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahawal Khan Abbasi | Meta Ads & SMM Expert</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-dark: #05070a;
+            --card-bg: #0d1117;
+            --accent-blue: #00d2ff;
+            --accent-gold: #c5a059;
+            --text-main: #ffffff;
+            --text-dim: #8b949e;
+            --verified-green: #238636;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background-color: var(--bg-dark); color: var(--text-main); line-height: 1.6; overflow-x: hidden; }
+
+        /* --- Global Elements --- */
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 5%; }
+        .section-padding { padding: 80px 0; }
+        .cta-btn { background: linear-gradient(45deg, var(--accent-blue), #0072ff); color: white; padding: 1rem 2.5rem; border-radius: 50px; text-decoration: none; font-weight: bold; display: inline-block; transition: 0.3s; }
+        .cta-btn:hover { transform: scale(1.05); box-shadow: 0 0 20px rgba(0, 210, 255, 0.4); }
+
+        /* --- Header --- */
+        header { padding: 1.5rem 0; border-bottom: 1px solid #161b22; }
+        .nav-flex { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.4rem; font-weight: 900; letter-spacing: 1px; color: var(--text-main); }
+        .logo span { color: var(--accent-blue); }
+
+        /* --- Hero --- */
+        .hero { text-align: center; padding: 120px 0 80px; background: radial-gradient(circle at top, #111827 0%, var(--bg-dark) 60%); }
+        .hero h1 { font-size: clamp(2.5rem, 5vw, 4.5rem); line-height: 1.1; margin-bottom: 1.5rem; }
+        .hero p { color: var(--text-dim); font-size: 1.2rem; max-width: 650px; margin: 0 auto 2.5rem; }
+
+        /* --- Results Grid --- */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 40px; }
+        .card { background: var(--card-bg); border: 1px solid #30363d; border-radius: 16px; overflow: hidden; position: relative; }
+        .card img { width: 100%; height: auto; transition: 0.5s; display: block; }
+        .card:hover img { transform: scale(1.03); }
+        .card-label { position: absolute; top: 15px; left: 15px; background: rgba(0,0,0,0.7); padding: 5px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: bold; color: var(--accent-blue); backdrop-filter: blur(5px); }
+
+        /* --- Testimonials --- */
+        .testimonials { background: #0a0c10; border-top: 1px solid #161b22; }
+        .testimonial-card { background: #161b22; padding: 2.5rem; border-radius: 20px; border-left: 4px solid var(--accent-blue); }
+        .client-info { display: flex; align-items: center; margin-bottom: 1.5rem; }
+        .client-meta h4 { margin-bottom: 2px; display: flex; align-items: center; gap: 8px; }
+        .verified-badge { color: var(--verified-green); font-size: 0.9rem; }
+        .client-niche { font-size: 0.85rem; color: var(--text-dim); }
+        .testimonial-text { font-style: italic; color: #d1d5db; font-size: 1.05rem; line-height: 1.8; }
+
+        /* --- Contact --- */
+        .contact-box { background: linear-gradient(135deg, #111, #000); padding: 60px; border-radius: 30px; text-align: center; border: 1px solid #333; }
+        .contact-links { display: flex; justify-content: center; gap: 30px; margin-top: 30px; flex-wrap: wrap; }
+        .contact-links a { color: var(--text-main); text-decoration: none; font-size: 1.1rem; }
+        .contact-links i { color: var(--accent-blue); margin-right: 8px; }
+
+        @media (max-width: 768px) { .hero h1 { font-size: 2.5rem; } .service-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container nav-flex">
+        <div class="logo">BAHAWAL KHAN <span>ABBASI</span></div>
+        <a href="https://wa.me/92318673188" class="cta-btn" style="padding: 0.7rem 1.5rem; font-size: 0.9rem;">Direct WhatsApp</a>
+    </div>
+</header>
+
+<section class="hero container">
+    <div class="card-label" style="position: relative; display: inline-block; margin-bottom: 20px;">PAKISTAN'S #1 META ADS SPECIALIST</div>
+    <h1>Scaling Brands with <span style="color: var(--accent-blue);">Precision</span> & Data.</h1>
+    <p>I help e-commerce owners turn small budgets into massive ROI through high-conversion Meta Ads and premium visual storytelling.</p>
+    <a href="mailto:Bahawalkhanabbasi1@gmail.com" class="cta-btn">Start Scaling Today</a>
+</section>
+
+<section class="section-padding container">
+    <h2 style="text-align: center; margin-bottom: 50px;">Real Results & Client Work</h2>
+    <div class="grid">
+        <div class="card">
+            <div class="card-label">SALES OVERVIEW</div>
+            <img src="06f74a17b7ab32cf5084ed63c904e1cc.jpg" alt="Shopify Results Dashboard">
+        </div>
+        <div class="card">
+            <div class="card-label">META ADS DATA</div>
+            <img src="39b0dc661b572be8f0a395394a61ebfa.jpg" alt="Facebook Ad Results">
+        </div>
+        <div class="card">
+            <div class="card-label">FRAGRANCE BRANDING</div>
+            <img src="Instagram post - 1 (1).jpg" alt="Lajawab Parfums Creative">
+        </div>
+        <div class="card">
+            <div class="card-label">FOOTWEAR E-COMMERCE</div>
+            <img src="Gemini_Generated_Image_m8sbg6m8sbg6m8sb.jpg" alt="FLAM Footwear Creative">
+        </div>
+        <div class="card">
+            <div class="card-label">SKINCARE CAMPAIGN</div>
+            <img src="Gemini_Generated_Image_nh8wr1nh8wr1nh8w.jpg" alt="Garnier Men Creative">
+        </div>
+        <div class="card">
+            <div class="card-label">HIGH-IMPACT VISUALS</div>
+            <img src="Gemini_Generated_Image_qy3buqqy3buqqy3b (1).jpg" alt="Death Energy Drink Creative">
+        </div>
+    </div>
+</section>
+
+<section class="testimonials section-padding">
+    <div class="container">
+        <h2 style="text-align: center; margin-bottom: 40px;">Client Testimonials</h2>
+        <div class="grid">
+            <div class="testimonial-card">
+                <div class="client-info">
+                    <div class="client-meta">
+                        <h4>Ali <i class="fas fa-check-circle verified-badge"></i></h4>
+                        <span class="client-niche">E-commerce Client</span>
+                    </div>
+                </div>
+                <p class="testimonial-text">"I was hesitant about outsourcing our Meta Ads, but the results spoke for themselves. We saw a 40% increase in website traffic within the first two weeks. The strategy was precise and perfectly aligned with our brand's voice."</p>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="client-info">
+                    <div class="client-meta">
+                        <h4>Hamza <i class="fas fa-check-circle verified-badge"></i></h4>
+                        <span class="client-niche">Brand Manager</span>
+                    </div>
+                </div>
+                <p class="testimonial-text">"Managing social media was taking up too much of my time. Handing it over to this team was the best decision. Our engagement has skyrocketed, and our feed finally looks like a premium international brand."</p>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="client-info">
+                    <div class="client-meta">
+                        <h4>Adil <i class="fas fa-check-circle verified-badge"></i></h4>
+                        <span class="client-niche">Owner, Footwear Brand</span>
+                    </div>
+                </div>
+                <p class="testimonial-text">"As a shoe company, visual appeal is everything. They didn't just run ads; they helped us showcase our products in a way that actually converted into sales. Our ROI has never been higher."</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding container" id="contact">
+    <div class="contact-box">
+        <h2>Ready to grow your revenue?</h2>
+        <p>Let's build a strategy that works for your specific business niche.</p>
+        <div class="contact-links">
+            <a href="https://wa.me/92318673188"><i class="fab fa-whatsapp"></i> +92 318 673188</a>
+            <a href="mailto:Bahawalkhanabbasi1@gmail.com"><i class="far fa-envelope"></i> Bahawalkhanabbasi1@gmail.com</a>
+        </div>
+        <br><br>
+        <a href="https://wa.me/92318673188" class="cta-btn">Book Free Consultation</a>
+    </div>
+</section>
+
+<footer style="text-align: center; padding: 40px 0; border-top: 1px solid #161b22; color: var(--text-dim);">
+    &copy; 2026 Bahawal Khan Abbasi | Premium Meta Ads & SMM Agency
+</footer>
+
+</body>
+</html>
